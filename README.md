@@ -51,10 +51,9 @@ Structured Answer (繁體中文)
 
 ### Ollama（必要）
 請先安裝並啟動 Ollama：
-
-```bash
 ollama serve
-下載模型
+
+### 下載模型
 ollama pull deepseek-r1:8b
 ollama pull llama3
 
