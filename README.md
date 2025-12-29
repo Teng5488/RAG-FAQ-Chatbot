@@ -8,14 +8,15 @@
 ## 系統架構
 
 User Query
-↓
-FAISS Semantic Retrieval
-↓
+↓  
+FAISS 語意檢索 
+↓  
 Context Injection
-↓
-Ollama LLM (DeepSeek / LLaMA)
-↓
-Structured Answer (繁體中文)
+↓  
+Ollama LLM (DeepSeek / LLaMA)  
+↓  
+結構化回答
+
 
 ## 功能特色
 
