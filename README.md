@@ -5,8 +5,6 @@
 整合 **Streamlit、LangChain、FAISS、HuggingFace Embeddings 與 Ollama（DeepSeek / LLaMA）**，  
 自動從 **維基百科** 建立《我的英雄學院》英雄資料庫，並提供即時、可解釋的問答體驗。
 
----
-
 ## 系統架構
 
 User Query
@@ -18,9 +16,6 @@ Context Injection
 Ollama LLM (DeepSeek / LLaMA)
 ↓
 Structured Answer (繁體中文)
-
-
----
 
 ## 功能特色
 
@@ -41,8 +36,6 @@ Structured Answer (繁體中文)
 -  **GPU / CPU 自動切換**
   - 自動偵測 CUDA
   - Embedding 支援 GPU 加速
-
----
 
 ##  環境需求
 
@@ -72,8 +65,6 @@ ollama serve
 | Docs | 檢索文件數量（Top-K Retrieval） |
 | 重啟系統 | 清除目前所有對話紀錄並重新啟動系統 |
 
----
-
 ## RAG 核心實作說明
 
 ### 文本切分策略
@@ -83,21 +74,15 @@ ollama serve
   - Chunk size：`500`
   - Chunk overlap：`100`
 
----
-
 ### 向量化設定
 - Embedding Model：`intfloat/multilingual-e5-large`
 - 向量正規化方式：**Cosine Similarity**
 - 支援多語言語意檢索（繁體中文效果佳）
 
----
-
 ### Prompt 設計原則
 - 僅允許根據「檢索到的資料內容」進行回答
 - 回答內容需以 **條列式** 呈現重點
 - 使用 **繁體中文** 回答
-
----
 
 ### 注意事項
 - 首次啟動系統時
