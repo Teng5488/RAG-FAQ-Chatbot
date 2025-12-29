@@ -54,8 +54,8 @@ Structured Answer (繁體中文)
 ollama serve
 
 ### 下載模型
-ollama pull deepseek-r1:8b
-ollama pull llama3
+- ollama pull deepseek-r1:8b
+- ollama pull llama3
 
 
 ### 啟動方式
