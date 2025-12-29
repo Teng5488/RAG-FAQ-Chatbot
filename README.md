@@ -1,6 +1,4 @@
 # RAG-FAQ-Chatbot
-
-# U.A. HIGH DATABASE  
 ## 知識問答系統  
 
 本專案是一個基於 **RAG（Retrieval-Augmented Generation）架構** 的互動式知識問答系統，  
