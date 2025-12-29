@@ -1,8 +1,7 @@
 # RAG-FAQ-Chatbot
 
-# 🦸‍♂️ U.A. HIGH DATABASE  
-## 我的英雄學院（My Hero Academia）英雄知識問答系統  
-**PLUS ULTRA !!**
+# U.A. HIGH DATABASE  
+## 知識問答系統  
 
 本專案是一個基於 **RAG（Retrieval-Augmented Generation）架構** 的互動式知識問答系統，  
 整合 **Streamlit、LangChain、FAISS、HuggingFace Embeddings 與 Ollama（DeepSeek / LLaMA）**，  
