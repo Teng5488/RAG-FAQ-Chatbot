@@ -8,13 +8,21 @@
 ## 系統架構
 
 User Query
+
 ↓  
+
 FAISS 語意檢索 
+
 ↓  
+
 Context Injection
+
 ↓  
+
 Ollama LLM (DeepSeek / LLaMA)  
+
 ↓  
+
 結構化回答
 
 
